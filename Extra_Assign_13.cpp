@@ -112,6 +112,6 @@ int main() {
 
     float classAverage = classTotal / (numStudents * 3);
     cout << "Class Average: " << classAverage << endl;
-
+    cout << "CODE BY KSHITIJ JADHAV";
     return 0;
 }
