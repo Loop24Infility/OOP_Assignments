@@ -72,5 +72,6 @@ int main() {
     Master m;
     m.updateMaster("Alice", 30, "ACC123", 1500.75, "ADM001", "Manager");
     m.displayMaster();
+    cout << "CODE BY KSHITIJ JADHAV";
     return 0;
 }
