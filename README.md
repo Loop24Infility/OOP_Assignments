@@ -21,18 +21,6 @@ Each file in this repository corresponds to one practice question. The filename 
 
 > 📝 *Note: Actual questions are included as comments inside each `.cpp` file.*
 
-## 💻 How to Run
-1. Make sure you have a C++ compiler installed (like `g++`)
-2. Open terminal/command prompt
-3. Compile the file:
-   ```bash
-   g++ filename.cpp -o output
-   ```
-4. Run the output:
-   ```bash
-   ./output   # On Windows, use: output.exe
-   ```
-
 ## 📎 References
 - Class Notes and Lab Manual
 - Online resources and tutorials
