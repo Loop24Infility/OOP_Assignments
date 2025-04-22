@@ -41,6 +41,6 @@ int main() {
     cout << "Years of Service = " << e2.getYearsOfService() << "\n";
     cout << "Salary = $" << e2.getSalary() << "\n";
     cout << "Rounded Salary = $" << e2.salaryInThousands() << ",000\n";
-
+    cout << "CODE BY KSHITIJ JADHAV";
     return 0;
 }
