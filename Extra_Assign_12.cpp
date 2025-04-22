@@ -60,6 +60,6 @@ int main()
 
     Fruit F;
     F.counter(A.info(),M.info());
-
+    cout << "CODE BY KSHITIJ JADHAV";
     return 0;
 }
