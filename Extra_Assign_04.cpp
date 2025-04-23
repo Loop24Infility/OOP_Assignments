@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 
-// Base class
 class Person {
 protected:
     string name;
@@ -18,7 +17,6 @@ public:
     }
 };
 
-// Account inherits virtually
 class Account : virtual public Person {
 protected:
     string accountNumber;
@@ -34,7 +32,6 @@ public:
     }
 };
 
-// Admin inherits virtually
 class Admin : virtual public Person {
 protected:
     string adminID;
@@ -50,7 +47,6 @@ public:
     }
 };
 
-// Master inherits from both Account and Admin
 class Master : public Account, public Admin {
 public:
     void updateMaster(string n, int a, string accNum, double bal, string id, string r) {
@@ -67,10 +63,9 @@ public:
     }
 };
 
-// Main function
 int main() {
     Master m;
-    m.updateMaster("Alice", 30, "ACC123", 1500.75, "ADM001", "Manager");
+    m.updateMaster("Kshitij", 30, "ACC123", 1500.75, "ADM001", "Manager");
     m.displayMaster();
     cout << "CODE BY KSHITIJ JADHAV";
     return 0;
