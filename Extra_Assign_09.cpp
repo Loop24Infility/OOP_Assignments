@@ -1,5 +1,5 @@
 #include <iostream>
-#include <unordered_map>
+#include <map>
 using namespace std;
 
 enum Status { ON_SHELF, ON_LOAN, RESERVED };
@@ -45,7 +45,7 @@ public:
 };
 
 class Library {
-    unordered_map<int, Book> books;
+    map<int, Book> books;
 public:
     void addBook(int classMark) {
         books[classMark] = Book(classMark);
