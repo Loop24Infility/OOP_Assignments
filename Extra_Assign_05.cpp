@@ -57,9 +57,9 @@ int main()
     
     vector<Books> inventory = 
     {
-        Books("Ansh", "English", "Self", 10.5, 5),
-        Books("Author2", "Title2", "Publisher2", 15.0, 3),
-        Books("Author3", "Title3", "Publisher3", 20.0, 2)
+        Books("Kshitij", "English", "Self", 10.5, 5),
+        Books("Rajan", "Hindi", "Panda", 15.0, 3),
+        Books("Parth", "Marathi", "Self", 20.0, 2)
     };
 
     string searchTitle, searchAuthor;
